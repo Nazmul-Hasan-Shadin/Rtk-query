@@ -1,13 +1,13 @@
-import { initializeApp } from 'firebase/app';
-import { getAuth } from 'firebase/auth';
+import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_apiKey,
-  authDomain: import.meta.env.VITE_authDomain,
-  projectId: import.meta.env.VITE_projectId,
-  storageBucket: import.meta.env.VITE_storageBucket,
-  messagingSenderId: import.meta.env.VITE_messagingSenderId,
-  appId: import.meta.env.VITE_appId,
+  apiKey: "AIzaSyDoO7dqs_nQznUOmGjXivrYlIqzL-GX90Y",
+  authDomain: "task-master-redux-4a9c8.firebaseapp.com",
+  projectId: "task-master-redux-4a9c8",
+  storageBucket: "task-master-redux-4a9c8.appspot.com",
+  messagingSenderId: "470771860753",
+  appId: "1:470771860753:web:c653e6ca71998174ab78b0",
 };
 
 const app = initializeApp(firebaseConfig);
